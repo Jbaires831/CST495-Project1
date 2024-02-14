@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZE5-ya-xvg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gon Freecss" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZD-3a-hza">
+                                <rect key="frame" x="16" y="100" width="361" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="l2V-PQ-Frt">
+                                <rect key="frame" x="120" y="471.33333333333326" width="153" height="147"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSy-yO-N21">
+                                        <rect key="frame" x="27.666666666666657" y="0.0" width="98" height="34.333333333333336"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="About Me"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Xm9-eu-JHC" appends="YES" id="PWy-Yd-cOI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3q-xo-Ccr">
+                                        <rect key="frame" x="36.999999999999993" y="56.333333333333314" width="79.333333333333314" height="34.333333333333343"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="My Life"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="0vQ-oQ-kaL" appends="YES" id="9oY-su-dA9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xck-SK-1P9">
+                                        <rect key="frame" x="0.6666666666666714" y="112.66666666666667" width="152" height="34.333333333333329"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="How Strong I Am"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="cPq-B7-MUE" appends="YES" id="8Hq-a5-Rgb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="fUq-4H-7dq">
+                                <rect key="frame" x="50" y="130" width="267" height="286"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l2V-PQ-Frt" secondAttribute="trailing" constant="120" id="6Mf-Q4-ogV"/>
+                            <constraint firstItem="uZD-3a-hza" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="KgP-WB-lo9"/>
+                            <constraint firstItem="uZD-3a-hza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="L9D-Xf-jAS"/>
+                            <constraint firstItem="l2V-PQ-Frt" firstAttribute="top" secondItem="fUq-4H-7dq" secondAttribute="bottom" constant="40" id="MZI-Po-bHT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uZD-3a-hza" secondAttribute="trailing" constant="16" id="NF0-fn-AmR"/>
+                            <constraint firstItem="fUq-4H-7dq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="S6i-qg-UeT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fUq-4H-7dq" secondAttribute="trailing" constant="50" id="SfO-tE-bni"/>
+                            <constraint firstItem="l2V-PQ-Frt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="bG0-Ji-l8d"/>
+                            <constraint firstItem="fUq-4H-7dq" firstAttribute="top" secondItem="uZD-3a-hza" secondAttribute="bottom" constant="10" id="bUQ-tC-LUN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2tF-c6-RqG"/>
+                    <connections>
+                        <segue destination="5zD-7j-sdt" kind="show" identifier="AboutMeSegue" id="L1B-Qh-RTI"/>
+                        <segue destination="S02-OC-ICD" kind="show" identifier="MyLifeSegue" id="yt9-Xm-r50"/>
+                        <segue destination="zL0-wz-1CE" kind="show" identifier="HowStrongSegue" id="xbK-Tb-nFK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Xm9-eu-JHC">
+                    <connections>
+                        <action selector="didTapAboutMe:" destination="BYZ-38-t0r" id="5hK-5r-m47"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="0vQ-oQ-kaL">
+                    <connections>
+                        <action selector="didTapMyLife:" destination="BYZ-38-t0r" id="gdY-lL-RY5"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="cPq-B7-MUE">
+                    <connections>
+                        <action selector="DidTapHowStrong:" destination="BYZ-38-t0r" id="xda-DB-G71"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1046.5648854961833" y="-34.507042253521128"/>
+        </scene>
+        <!--About Me View Controller-->
+        <scene sceneID="fYk-Bi-ma1">
+            <objects>
+                <viewController id="5zD-7j-sdt" customClass="AboutMeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XoC-Ca-T4j">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sa-U5-xlP">
+                                <rect key="frame" x="16" y="371" width="361" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hi, I am just a kid in search for adventure. Some things about is that I'm not good at math, like to wonder the woods, and I have a good sense of smell.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gonaboutme" translatesAutoresizingMaskIntoConstraints="NO" id="gUV-8Y-fee">
+                                <rect key="frame" x="61" y="177" width="254" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DLj-VE-SZ4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7aj-QR-AKC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sIG-g4-hoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733.5877862595419" y="-35.211267605633807"/>
+        </scene>
+        <!--My Life View Controller-->
+        <scene sceneID="Y2i-Qz-7ER">
+            <objects>
+                <viewController id="S02-OC-ICD" customClass="MyLifeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j9r-zc-C2C">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1f-9I-jxT">
+                                <rect key="frame" x="16" y="341" width="361" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">So in short I trying to look for my dad. Because of this I am trying to get my hunters license. Since it'll help me understand why dad chose his job over me.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gonadventure" translatesAutoresizingMaskIntoConstraints="NO" id="n6z-TI-YgR">
+                                <rect key="frame" x="31" y="135" width="331" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Roi-CA-d8P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a3K-CE-iGV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6z-Dc-QHO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119.84732824427481" y="697.18309859154931"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3kr-MM-2Hv">
+            <objects>
+                <viewController id="zL0-wz-1CE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRV-5B-xiD" customClass="HowStrongViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJa-fV-y9y">
+                                <rect key="frame" x="16" y="338" width="361" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">I really don't know how strong I really am. I was told that got taller after being told some bad news. My hair also grew alot too. Weird how that works.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gonadult" translatesAutoresizingMaskIntoConstraints="NO" id="Cie-Qf-5Kz">
+                                <rect key="frame" x="16" y="117" width="361" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PU9-Ah-QtE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZbN-sQ-5OA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85A-CR-tFP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806.87022900763361" y="697.18309859154931"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cGE-RR-A0M">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZE5-ya-xvg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VdP-Lc-9Zb">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3O0-CX-bQA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idf-7V-UrG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119.84732824427481" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="301" height="301"/>
+        <image name="gonaboutme" width="1920" height="1080"/>
+        <image name="gonadult" width="310" height="163"/>
+        <image name="gonadventure" width="2224" height="1313"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
