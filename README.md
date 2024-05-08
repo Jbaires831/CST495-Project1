@@ -1,10 +1,10 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Introduce Yourself*
 
-Submitted by: **Your Name Here**
+Submitted by: **Jonathan Baires**
 
-**Name of your app** is an app that introduces ... [TODO] 
 
-Time spent: **X** hours spent in total
+
+Time spent: 3 hours spent in total
 
 ## Required Features
 
@@ -29,8 +29,4 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
-
-## Notes
-
-Describe any challenges encountered while building the app.
+Loom | Free Screen & Video Recording Software | Loom - 7 May 2024 - Watch Video
